@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+body{
+    background-color: rgb(245, 246, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/***************************
+start section top code
+****************************/
+.top{
+    text-align: center;
+    background-color: rgb(241, 232, 232);
+    padding: 3px;
+}
+.top>span>a{
+    text-decoration: none;
+}
+
+/***************************
+start section nav code
+****************************/
+nav{
+    display: flex;
+    align-items: center;
+}
+nav>span{
+    text-align: center;
+    width: 12%;
+    font-size: 30px;
+    padding: 5px;
+    font: bold;
+}
+.search{
+    width: 20%;
+}
+.search>input{
+    width: 60%;
+    font-size: 17px;
+    padding: 2.5% 3%;
+}
+.search>a{
+    width: 10;
+    background-color: brown;
+    font-size: 20px;
+    padding: 2% 3%;
+    margin-left: -10px;
+    text-decoration: none;
+    color: white;
+    transition: 100ms linear;
+}
+.search>a:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+nav>ul{
+    width: 50%;
+}
+nav>ul>li{
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    font-size: 20px;
+    padding: 2% 0%;
+    transition: 100ms linear;
+}
+nav>ul>li:hover{
+    background-color: yellow;
+    color: white;
+    cursor: pointer;
+}
+.log{
+    width: 17%;
+}
+.log>button{
+    width: 49%;
+    text-align: center;
+    font-size: 20px;
+    padding: 2% 3%;
+    background: brown;
+    color: white;
+    cursor: pointer;
+}
+.join{
+    background-color: wheat !important;
+    color: white !important;
+}
+
+/***************************
+start section header code
+****************************/
+header{
+    display: flex;
+    align-items: center;
+}
+.image{
+    width: 40%;
+    display: inline-block;
+    padding: 4%;
+}
+.image>img{
+    width: 93%;
+}
+
+.content{
+    width: 59%;
+    display: inline-block;
+}
+.content>h1{
+    font-size: 40px;
+    font: bolder;
+    width: 100%;
+}
+.search_two{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.search_two>input{
+    width: 50%;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.search_two>a{
+    width: 15%;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+.btn{
+    text-align: left;
+    width: 100%;
+}
+.btn>button{
+    width: 30%;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.content>p{
+    padding-top: 20px;
+    padding-right: 50px;
+    font-size: 18px;
+}
